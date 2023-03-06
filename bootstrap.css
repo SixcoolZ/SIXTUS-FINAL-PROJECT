@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* This is for card */
+#icon{
+    color:#F58A07;
+    background: rgba(245, 138, 7, 0.1);
+}
+.header-bg {
+    background: url('./images/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+background-blend-mode: overlay;
+    /* background: url("../images/bg-image.png") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: overlay; */
+}
+.orange{
+    color: #F58A07;
+}
+.blue{
+    color: #063255;
+}
+#bus{
+    background: #063255;
+}
+
+#btn{
+    background-color: #F58A07;
+}
+#background-bus{
+    background: #EDF7FF;
+}
+#About-Image{
+    width: 100%;
+}
+#Service-image{
+    width: 100%;
+}
+#card-img{
+    background: #F58A07;
+    color: #FFFFFF;
+}
+#text-card{
+    background: #FFFFFF;
+    color: #F58A07;
+
+}
+#footer{
+    background-color: #063255;
+    background-image: url(./images/Shape\ Left.png), url(./images/Shape\ Right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    background-size: 30px, 40px;
+    height: 40vh;
+    padding-top: 20px;
+}
+#career-bg{
+    background: #C1E4FF4D;
+}
+
+
+
+@media only screen and (max-width:700px){
+    #footer{
+        background-color: #063255;
+        background-image: none;
+        height: auto;
+        padding-top: 20px;
+    }
+}
